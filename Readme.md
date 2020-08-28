@@ -1,4 +1,7 @@
 # How to show the ASPxGridView context menu by clicking the left mouse button
+<!-- run online -->
+**[[Run Online]](https://codecentral.devexpress.com/139031311/)**
+<!-- run online end -->
 
 ASPxGridView doesn't provide any client-side methods to show the built-in row popup menu. However, it is possible to implement this functionality by adding a separate ASPxPopupMenu control with necessary items (New, Edit, Delete) and show it manually by invoking the client-side [ShowAtPos()](https://documentation.devexpress.com/AspNet/DevExpress.Web.Scripts.ASPxClientPopupMenu.ShowAtPos.method) method.
 
